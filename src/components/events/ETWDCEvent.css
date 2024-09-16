@@ -1,0 +1,30 @@
+.etwdc-event {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-container {
+  margin-bottom: 20px;
+}
+
+.event-info,
+.achievements {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* p, li {
+  color: #555;
+  line-height: 1.6;
+} */
+
+li {
+    color: #555;
+    line-height: 1.6;
+  }
+  

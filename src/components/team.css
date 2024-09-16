@@ -1,0 +1,146 @@
+.container-lg {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+/* Team card container */
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 15px; /* Space between images */
+  padding: 20px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    }
+  }
+  /* Team card styling */
+  .team-card {
+  margin-top: 35px;  
+    margin-bottom: 15px;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(0, 44, 0)
+    ;  
+    border-radius: 10px;
+    /* overflow: hidden; */
+    transition: all 0.5s ease;  /* Smooth transition */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    
+  }
+ 
+  
+  /* Image positioning - half outside the card */
+  .team-img {
+    position: absolute;
+    border-radius: 50%;
+    top: -50px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 120px;
+    height: 120px;
+    transition: all 0.5s ease;
+    z-index: 2; /* Keep image above the card initially */
+    object-fit: cover;
+  }
+  
+  /* Team member info inside the card */
+  .team-info {
+    padding: 100px 20px 20px; /* Give enough padding to account for the image */
+    text-align: center;
+  }
+  
+  .team-info h3 {
+    margin: 10px 0 5px;
+    font-size: 1.3rem;
+    color: #e8d7d7;
+  }
+  
+  
+  .team-info p {
+    font-size: 1rem;
+    color: #e8caca;
+  }
+
+  
+  /* Hover effect - Image becomes the background of the card */
+  .img1card:hover {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../assets/karma_sir.jpeg');  /* Set the image as the background */
+  }
+
+ 
+
+  .img2card:hover {
+    background: url('../assets/photo1.jpg') center / cover no-repeat;
+  }
+  
+  .img3card:hover {
+    background: url('../assets/prishamam.jpg') center / cover no-repeat;
+  }
+  .rakshit:hover {
+    background: url('../assets/Rakshit Pandey.jpg') center / cover no-repeat;
+  }
+  .sumit:hover {
+    background: url('../assets/SumitSir.jpg') center / cover no-repeat;
+  }
+  .piyush:hover {
+    background: url('../assets/Piyush Kaushal.jpg') center / cover no-repeat;
+  }
+  .arjun:hover {
+    background: url('../assets/Arjun Kushwaha.jpg') center / cover no-repeat;
+  }
+  .anurag:hover {
+    background: url('../assets/Anurag Tiwari.jpg') center / cover no-repeat;
+  }
+  .yash:hover {
+    background: url('../assets/Yash2.jpg') center / cover no-repeat;
+  }
+  .aman:hover {
+    background: url('../assets/Aman Kushwaha.jpg') center / cover no-repeat;
+  }
+  .nidhi:hover {
+    background: url('../assets/Nidhi Patel.jpg') center / cover no-repeat;
+  }
+  .aayush:hover {
+    background: url('../assets/Ayush Somkuwar.jpeg') center / cover no-repeat;
+  }
+  .nikhil:hover {
+    background: url('../assets/nikhil.jpg') center / cover no-repeat;
+  }
+  .nayan:hover {
+    background: url('../assets/Nayan Rathore.jpg') center / cover no-repeat;
+  }
+  .saksham:hover {
+    background: url('../assets/Saksham Shrivastava.jpg') center / cover no-repeat;
+  }
+  .kavyansh:hover {
+    background: url('../assets/Kavyansh Saxena.jpg') center / cover no-repeat;
+  }
+  .rahul:hover {
+    background: url('../assets/rahul1.jpg') center / cover no-repeat;
+  }
+  .shabbir:hover {
+    background: url('../assets/Shabbir Mhowwala.jpg') center / cover no-repeat;
+  }
+  .Saubhagya:hover {
+    background: url('../assets/SAUBHAGYA - Saubhagya Barve.jpg') center / cover no-repeat;
+  }
+  .vikash:hover {
+    background: url('../assets/Vikash Soni.jpg') center / cover no-repeat;
+  }
+  
+  
+  .team-card:hover .team-img {
+    opacity: 0;  /* Hide the floating image on hover */
+  }
+  
+  

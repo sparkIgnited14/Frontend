@@ -1,0 +1,69 @@
+/* Vehicles Section */
+.vehicles-section {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .vehicles-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  /* Grid Layout */
+  .vehicles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Vehicle Card Design */
+  .vehicle-card {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vehicle-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image Styling */
+  .vehicle-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Vehicle Info */
+  .vehicle-info {
+    padding: 20px;
+  }
+  
+  .vehicle-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .vehicle-info p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .vehicle-info h3 {
+      font-size: 1.3rem;
+    }
+  
+    .vehicle-info p {
+      font-size: 0.9rem;
+    }
+  }
+  

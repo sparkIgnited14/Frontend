@@ -1,0 +1,187 @@
+/* General Styles */
+
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+/* Hero Section */
+.hero {
+  background: url('../Ather-450.jpg') no-repeat center center/cover;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+  z-index: 1;
+  margin-top: 15%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: #00aaff;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #008fcc;
+}
+
+/* Vision Section */
+.vision {
+  padding: 50px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.vision p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Meet the Team Section */
+.team {
+  background: url('../cover-bootcamp-998x563.jpg') no-repeat center center/cover;
+  text-align: center;
+}
+
+
+
+.team h2 {
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+.team-overlay {
+  position: relative;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 4%;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.card img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #777;
+}
+
+
+
+
+
+
+
+/* Button Styles */
+.see-more-btn {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #00aaff;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  box-shadow: 0 10px 20px rgba(0, 170, 255, 0.2);
+  margin-bottom: 4%;
+}
+
+.see-more-btn:hover {
+  background-color: #008fcc;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 140, 200, 0.3);
+}
+
+
+
+
+.imgsize{
+  width: 30% !important;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.reviewsection{
+  width: 100% !important;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .reviewsection{
+    width: 100% !important;
+  }
+
+}
+
+.btn {
+  margin-top: 2%;
+}
