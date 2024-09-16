@@ -9,7 +9,7 @@ const ReviewListSmall = () => {
   useEffect(() => {
     const fetchReview = async () => {
       try {
-        const response = await axios.get('hhttps://backend-server-c2vh.onrender.com/reviewpage');
+        const response = await axios.get('https://backend-server-c2vh.onrender.com/reviewpage');
         setReviews(response.data);
       } catch (error) {
         console.error('Error fetching queries:', error);
