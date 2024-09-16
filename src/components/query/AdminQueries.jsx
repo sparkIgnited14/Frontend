@@ -8,7 +8,7 @@ const AdminQueries = () => {
   useEffect(() => {
     const fetchQueries = async () => {
       try {
-        const response = await axios.get('https://backend-server-hhnv.onrender.com/api/admin/queries');
+        const response = await axios.get('https://backend-server-c2vh.onrender.com/api/admin/queries');
         setQueries(response.data);
       } catch (error) {
         console.error('Error fetching queries:', error);
@@ -20,7 +20,7 @@ const AdminQueries = () => {
 
   const handleMarkDone = async (id) => {
     try {
-      const response = await axios.put(`http://localhost:3000/api/admin/queries/${id}`);
+      const response = await axios.put(`https://backend-server-c2vh.onrender.com/api/admin/queries/${id}`);
       setQueries(queries.map(query => (query._id === id ? { ...query, status: 'done' } : query)));
     } catch (error) {
       console.error('Error marking query as done:', error);

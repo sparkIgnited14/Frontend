@@ -12,7 +12,7 @@ const SubmitQuery = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:3000/api/queries', {
+      const response = await axios.post('https://backend-server-c2vh.onrender.com/api/queries', {
         name,
         email,
         query

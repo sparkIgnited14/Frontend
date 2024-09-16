@@ -14,7 +14,7 @@ const ReviewForm = ({ onSubmit }) => {
     e.preventDefault();
   
     try {
-      const response = await axios.post('https://backend-server-hhnv.onrender.com/reviewpage', {
+      const response = await axios.post('https://backend-server-c2vh.onrender.com/reviewpage', {
         name,
         rating,
         comment,
