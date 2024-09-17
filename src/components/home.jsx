@@ -7,6 +7,13 @@ import ReviewListSmall from './review/ReviewListSmall';
 import './home.css'
 import { Link } from 'react-router-dom';
 
+
+import karmaSir from '../assets/karma_sir.jpeg';
+import Murtaza from '../assets/photo1.jpg';
+import Prisha from '../assets/prishamam.jpg';
+import Rakshit from '../assets/Rakshit Pandey.jpg';
+
+
 export default function Home() {
     return (
         <div>
@@ -75,28 +82,28 @@ export default function Home() {
                     <h2 >Meet the Team</h2>
                     <div class="team-cards">
                     <div class="team-card img1card">
-                        <img src="../src/assets/karma_sir.jpeg" alt="Team Member" class="team-img img1" />
+                        <img src={karmaSir} alt="Team Member" class="team-img img1" />
                         <div class="team-info">
                             <h3>Dr. Vijay Karma</h3>
                             <p>Faculty-Advisor</p>
                         </div>
                     </div>
                     <div class="team-card img2card">
-                        <img src="../src/assets/photo1.jpg" alt="Team Member" class="team-img" />
+                        <img src={Murtaza} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Murtaza Sandalwala</h3>
                             <p>Mentor</p>
                         </div>
                     </div>
                     <div class="team-card img3card">
-                        <img src="../src/assets/prishamam.jpg" alt="Team Member" class="team-img" />
+                        <img src={Prisha} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Prisha Chakravorty</h3>
                             <p>Mentor</p>
                         </div>
                     </div>
                     <div class="team-card rakshit">
-                        <img src="../src/assets/Rakshit Pandey.jpg" alt="Team Member" class="team-img" />
+                        <img src={Rakshit} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Rakshit Pandey</h3>
                             <p>Captain</p>
