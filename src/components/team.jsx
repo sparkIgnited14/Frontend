@@ -12,7 +12,7 @@ import Sumit from '../assets/SumitSir.jpg';
 import Piyush from '../assets/Piyush Kaushal.jpg';
 import Arjun from '../assets/Arjun Kushwaha.jpg';
 import Anurag from '../assets/Anurag Tiwari.jpg';
-import Yash from '../assets/Yash2.jpg';
+import Yash from '../assets/yash2.jpg';
 import Aman from '../assets/Aman Kushwaha.jpg';
 import Nidhi from '../assets/Nidhi Patel.jpg';
 import Ayush from '../assets/Ayush Somkuwar.jpeg';
