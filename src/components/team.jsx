@@ -3,7 +3,7 @@ import Nav from '../nav';
 import Footer from '../footer';
 
 import './team.css'
-
+import karmaSir from '../assets/karma_sir.jpeg';
 export default function Team() {
     return (
         <div>
@@ -12,7 +12,7 @@ export default function Team() {
                 <h1>MEET OUR TEAM</h1>
                 <div class="team-container ">
                     <div class="team-card img1card ">
-                        <img src="/assets/karma_sir.jpeg" alt="Team Member" class="team-img " />
+                        <img src={karmaSir} alt="Team Member" class="team-img " />
                         <div class="team-info">
                             <h3>Dr. Vijay Karma</h3>
                             <p>Faculty-Advisor</p>
