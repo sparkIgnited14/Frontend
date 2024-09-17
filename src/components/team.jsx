@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../nav';
 import Footer from '../footer';
 
+
 import './team.css'
 import karmaSir from '../assets/karma_sir.jpeg';
 import Murtaza from '../assets/photo1.jpg';
