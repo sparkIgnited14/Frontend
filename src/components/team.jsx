@@ -40,7 +40,7 @@ export default function Team() {
                         </div>
                     </div>
                     <div class="team-card sumit">
-                        <img src="../src/assets/SumitSir.jpg" alt="Team Member" class="team-img" />
+                        <img src="../assets/SumitSir.jpg" alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Sumit Suxena</h3>
                             <p>Wire harrness & Electronics </p>
