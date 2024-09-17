@@ -5,9 +5,9 @@ import Footer from '../footer';
 
 import './team.css'
 import karmaSir from '../assets/karma_sir.jpeg';
-import Murtaza from '../assets/photo1.jpg';
-import Prisha from '../assets/prishamam.jpg';
-import Rakshit from '../assets/Rakshit Pandey.jpg';
+import photo1 from '../assets/photo1.jpg';
+import prishamam from '../assets/prishamam.jpg';
+import Rakshit_Pandey from '../assets/Rakshit Pandey.jpg';
 import Sumit from '../assets/SumitSir.jpg';
 import Piyush from '../assets/Piyush Kaushal.jpg';
 import Arjun from '../assets/Arjun Kushwaha.jpg';
@@ -40,21 +40,21 @@ export default function Team() {
                         </div>
                     </div>
                     <div class="team-card img2card">
-                        <img src={Murtaza} alt="Team Member" class="team-img" />
+                        <img src={photo1} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Murtaza Sandalwala</h3>
                             <p>Mentor<br></br>Powertrain</p>
                         </div>
                     </div>
                     <div class="team-card img3card">
-                        <img src={Prisha} alt="Team Member" class="team-img" />
+                        <img src={prishamam} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Prisha Chakravorty</h3>
                             <p>Mentor</p>
                         </div>
                     </div>
                     <div class="team-card rakshit">
-                        <img src={Rakshit} alt="Team Member" class="team-img" />
+                        <img src={Rakshit_Pandey} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Rakshit Pandey</h3>
                             <p>Captain <br></br>CAD & Chassis</p>
