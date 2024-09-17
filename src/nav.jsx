@@ -1,4 +1,5 @@
 import './nav.css'
+import { Link } from 'react-router-dom';
 
 
 
@@ -22,15 +23,15 @@ export default function Nav() {
                             <a class="nav-link" href="/">Explore</a>
                         </div>
                         <div class="navbar-nav ms-auto">
-                            <a class="nav-link btn-bg mr" href="/"><i class="fa-solid fa-house"></i> Home</a> 
-                            <a class="nav-link btn-bg mr" href="/events"><b><i class="fa-regular fa-calendar"></i> Events</b></a>
-                            <a class="nav-link btn-bg mr" href="/gallery"><b><i class="fa-regular fa-images"></i> Gallery</b> </a>
-                            <a class="nav-link btn-bg mr" href="/team"><b><i class="fa-solid fa-people-group"></i> Team</b></a>
+                            <Link class="nav-link btn-bg mr" to="/"><i class="fa-solid fa-house"></i> Home</Link> 
+                            <Link class="nav-link btn-bg mr" to="/events"><b><i class="fa-regular fa-calendar"></i> Events</b></Link>
+                            <Link class="nav-link btn-bg mr" to="/gallery"><b><i class="fa-regular fa-images"></i> Gallery</b> </Link>
+                            <Link class="nav-link btn-bg mr" to="/team"><b><i class="fa-solid fa-people-group"></i> Team</b></Link>
                          </div>
                         <div class="navbar-nav ms-auto">
                           
-                            <a class="nav-link btn-bg" href="/feedback"><b><i class="fa-solid fa-clipboard-question"></i> Query</b></a>
-                            <a class="nav-link btn-bg" href="/contact"><b><i class="fa-solid fa-phone"></i> Contact Us</b></a>
+                            <Link class="nav-link btn-bg" to="/feedback"><b><i class="fa-solid fa-clipboard-question"></i> Query</b></Link>
+                            <Link class="nav-link btn-bg" to="/contact"><b><i class="fa-solid fa-phone"></i> Contact Us</b></Link>
 
                         </div>
                     </div>

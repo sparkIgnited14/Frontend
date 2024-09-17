@@ -5,6 +5,7 @@ import Footer from '../footer';
 import Vehicles from './Vehicles.';
 import ReviewListSmall from './review/ReviewListSmall';
 import './home.css'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
@@ -53,7 +54,7 @@ export default function Home() {
                                     <h3>ETWDC 2023</h3>
                                     <p><b>ALL India Ranked 7 in ETWDC southern section.</b><br></br>Grabed 2nd postion in Innovation</p>
 
-                                    <a href='/etwdc-event' className="btn btn-primary">know More about ETWDC</a>
+                                    <Link to='/etwdc-event' className="btn btn-primary">know More about ETWDC</Link>
                                 </div>
                             </div>
                             <div className="vehicle-card" >
@@ -62,7 +63,7 @@ export default function Home() {
                                     <h3>SIEP 2024</h3>
                                     <p>Coming Soon...     </p>
                                     <br></br>  
-                                    <a href='/siep-event' className="btn btn-primary">know more about SIEP</a>
+                                    <Link to='/siep-event' className="btn btn-primary">know more about SIEP</Link>
                                 </div>
                             </div>
                     </div>
@@ -102,15 +103,15 @@ export default function Home() {
                         </div>
                     </div>
                     </div>
-                    <a href='/team' className="see-more-btn">See More</a>
+                    <Link to='/team' className="see-more-btn">See More</Link>
                     </div>
                 </section>
                 
                 <section class="timeline-section reviewsection" id="events">
-                    <a href='/reviewpage' >
+                    <Link to='/reviewpage' >
                     < ReviewListSmall />
-                    </a>
-                    <a href='/reviewpage' className='btn btn-primary'>See & Add More Reviews</a>
+                    </Link>
+                    <Link to='/reviewpage' className='btn btn-primary'>See & Add More Reviews</Link>
                 </section>
                 
 

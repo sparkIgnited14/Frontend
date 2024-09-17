@@ -24,7 +24,7 @@ import SIEPEvent from './components/events/SEIP';
 import VehicleDetail from './components/VehicleDetail';
 
 
-
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -34,6 +34,7 @@ function App() {
     <>
      
       <Router>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/nav" element={<Nav />} />

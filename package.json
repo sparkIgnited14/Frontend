@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "homepage": "https://sparkIgnited14.github.io/Frontend",
     "predeploy": "npm run build",
     "start": "npm run dev",
     "deploy": "gh-pages -d dist",

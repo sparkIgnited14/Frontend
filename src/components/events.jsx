@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from '../nav';
 import Footer from '../footer';
+import { Link } from 'react-router-dom';
 
 import './events.css'
 
@@ -30,7 +31,7 @@ export default function Events() {
                                 <h3>ETWDC 2023</h3>
                                 <p><b>ALL India Ranked 7 in ETWDC southern section.</b><br></br>Grabed 2nd postion in Innovation</p>
 
-                                <a href='/etwdc-event' className="btn btn-primary">know More about ETWDC</a>
+                                <Link to='/etwdc-event' className="btn btn-primary">know More about ETWDC</Link>
                             </div>
                         </div>
                         <div className="vehicle-card" >
@@ -39,7 +40,7 @@ export default function Events() {
                                 <h3>SIEP 2024</h3>
                                 <p>Coming Soon...     </p>
                                 <br></br>  
-                                <a href='/siep-event' className="btn btn-primary">know more about SIEP</a>
+                                <Link to='/siep-event' className="btn btn-primary">know more about SIEP</Link>
                             </div>
                         </div>
                 </div>
