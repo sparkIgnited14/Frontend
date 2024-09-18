@@ -8,7 +8,7 @@ import VKK from '../assets/VKK Photo.jpeg.jpg';
 import photo1 from '../assets/photo1.jpg';
 import prishamam from '../assets/prishamam.jpg';
 import Rakshit_Pandey from '../assets/Rakshit Pandey.jpg';
-import Sumit from '../assets/SumitSir.jpg';
+import Sumit from '../assets/SumitSir1.jpg';
 import Piyush from '../assets/Piyush Kaushal.jpg';
 import Arjun from '../assets/Arjun Kushwaha.jpg';
 import Anurag from '../assets/Anurag Tiwari.jpg';
