@@ -31,7 +31,7 @@ export default function Events() {
                                 <h3>ETWDC 2023</h3>
                                 <p><b>ALL India Ranked 7 in ETWDC southern section.</b><br></br>Grabed 2nd postion in Innovation</p>
 
-                                <Link to='/etwdc-event' className="btn btn-primary">know More about ETWDC</Link>
+                                <Link to='/etwdc-event' className="btn btn-primary">know more about ETWDC</Link>
                             </div>
                         </div>
                         <div className="vehicle-card" >
