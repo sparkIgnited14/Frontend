@@ -37,7 +37,7 @@ export default function Home() {
                 </section>
 
                 {/* <!-- Meet the Team Section --> */}
-                <section class="team ">
+                <section class="team team1">
                     <div className='team-overlay'>
                     <h2>Our Vehicles </h2>
                     

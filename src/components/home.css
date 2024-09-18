@@ -79,7 +79,10 @@ h1, h2 {
   background: url('../cover-team.jpg') no-repeat center center/cover;
   text-align: center;
 }
-
+.team1 {
+  background: url('../cover-team1.jpg') no-repeat center center/cover;
+  text-align: center;
+}
 
 
 .team h2 {
