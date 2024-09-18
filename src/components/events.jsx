@@ -29,7 +29,7 @@ export default function Events() {
                             <div className="vehicle-info">
                             <img src="../saeindiaSS.jpeg" alt="vehicle.name" className="vehicle-image imgsize" />
                                 <h3>ETWDC 2023</h3>
-                                <p><b>ALL India Ranked 7 in ETWDC southern section.</b><br></br>Grabed 2nd postion in Innovation</p>
+                                <p><b>ALL India Ranked 7 in ETWDC southern section.</b><br></br>Grabed 2nd postion in special award</p>
 
                                 <Link to='/etwdc-event' className="btn btn-primary">know more about ETWDC</Link>
                             </div>

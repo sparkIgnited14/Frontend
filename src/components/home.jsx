@@ -59,7 +59,7 @@ export default function Home() {
                                 <div className="vehicle-info">
                                 <img src="../saeindiaSS.jpeg" alt="vehicle.name" className="vehicle-image imgsize" />
                                     <h3>ETWDC 2023</h3>
-                                    <p><b>ALL India Ranked 7 in ETWDC southern section.</b><br></br>Grabed 2nd postion in Innovation</p>
+                                    <p><b>ALL India Ranked 7 in ETWDC southern section.</b><br></br>Grabed 2nd postion in special award</p>
 
                                     <Link to='/etwdc-event' className="btn btn-primary">know more about ETWDC</Link>
                                 </div>
@@ -92,21 +92,21 @@ export default function Home() {
                         <img src={photo1} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Murtaza Sandalwala</h3>
-                            <p>Mentor</p>
+                            <p>Founder</p>
                         </div>
                     </div>
                     <div class="team-card img3card">
                         <img src={prishamam} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Prisha Chakravorty</h3>
-                            <p>Mentor</p>
+                            <p>Co-Founder</p>
                         </div>
                     </div>
                     <div class="team-card rakshit">
                         <img src={Rakshit} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Rakshit Pandey</h3>
-                            <p>Captain</p>
+                            <p>CPO (Chief Product Officer)</p>
                         </div>
                     </div>
                     </div>
