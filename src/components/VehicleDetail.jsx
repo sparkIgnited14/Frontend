@@ -40,14 +40,14 @@ const vehicleData = {
     description: 'An efficient bike perfect for city commuting, offering a smooth ride.',
     image: '../ather-delivers-250-450x-electric-scooters-in-the-same-day-3-1666601920.jpg', // Replace with actual image URL
     details: {
-      motor: '900w, BLDC motor',
-      battery: '20AH Li-ion',
-      charging: '300w fast charge',
-      torque: '30nm @400 RPM',
-      payload: '85KG',
-      wheels: '13 inch',
-      range: '40 km',
-      speed: '55 kmph',
+      motor: '....',
+      battery: '....',
+      charging: '....',
+      torque: '....',
+      payload: '....',
+      wheels: '....',
+      range: '....',
+      speed: '....',
     },
   },
 };

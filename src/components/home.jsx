@@ -8,7 +8,7 @@ import './home.css'
 import { Link } from 'react-router-dom';
 
 
-import karmaSir from '../assets/karma_sir.jpeg';
+import VKK from '../assets/VKK Photo.jpeg.jpg';
 import photo1 from '../assets/photo1.jpg';
 import prishamam from '../assets/prishamam.jpg';
 import Rakshit from '../assets/Rakshit Pandey.jpg';
@@ -82,7 +82,7 @@ export default function Home() {
                     <h2 >Meet the Team</h2>
                     <div class="team-cards">
                     <div class="team-card img1card">
-                        <img src={karmaSir} alt="Team Member" class="team-img img1" />
+                        <img src={VKK} alt="Team Member" class="team-img img1" />
                         <div class="team-info">
                             <h3>Dr. Vijay Karma</h3>
                             <p>Faculty-Advisor</p>

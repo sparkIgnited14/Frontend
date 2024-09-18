@@ -24,7 +24,7 @@
     margin-bottom: 15px;
     position: relative;
     width: 250px;
-    height: 200px;
+    height: 210px;
     background-color: rgb(0, 44, 0)
     ;  
     border-radius: 10px;
@@ -74,7 +74,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../assets/karma_sir.jpeg');  /* Set the image as the background */
+    background-image: url('../assets/VKK Photo.jpeg.jpg');  /* Set the image as the background */
   }
 
  
@@ -97,6 +97,9 @@
   }
   .arjun:hover {
     background: url('../assets/Arjun Kushwaha.jpg') center / cover no-repeat;
+  }
+  .Saharsh:hover {
+    background: url('../assets/Saharsh Upadhyay.jpg') center / cover no-repeat;
   }
   .anurag:hover {
     background: url('../assets/Anurag Tiwari.jpg') center / cover no-repeat;

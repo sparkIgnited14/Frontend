@@ -1,6 +1,5 @@
   /* FAQ/Query Section */
   .query-section {
-   
     margin-bottom: 50px;
     padding: 30px;
     border-radius: 10px;
@@ -39,6 +38,10 @@
   
   .query button:hover {
     background-color: #008fcc;
+  }
+
+  form input{
+    color: black ;
   }
 
 

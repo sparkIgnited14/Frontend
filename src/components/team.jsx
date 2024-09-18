@@ -4,7 +4,7 @@ import Footer from '../footer';
 
 
 import './team.css'
-import karmaSir from '../assets/karma_sir.jpeg';
+import VKK from '../assets/VKK Photo.jpeg.jpg';
 import photo1 from '../assets/photo1.jpg';
 import prishamam from '../assets/prishamam.jpg';
 import Rakshit_Pandey from '../assets/Rakshit Pandey.jpg';
@@ -24,6 +24,7 @@ import Rahul from '../assets/rahul1.jpg';
 import Shabbir from '../assets/Shabbir Mhowwala.jpg';
 import Saubhagya from '../assets/SAUBHAGYA - Saubhagya Barve.jpg';
 import Vikash from '../assets/Vikash Soni.jpg';
+import Saharsh from '../assets/Saharsh Upadhyay.jpg';
 
 export default function Team() {
     return (
@@ -33,7 +34,7 @@ export default function Team() {
                 <h1>MEET OUR TEAM</h1>
                 <div class="team-container ">
                     <div class="team-card img1card ">
-                        <img src={karmaSir} alt="Team Member" class="team-img " />
+                        <img src={VKK} alt="Team Member" class="team-img " />
                         <div class="team-info">
                             <h3>Dr. Vijay Karma</h3>
                             <p>Faculty-Advisor</p>
@@ -50,7 +51,7 @@ export default function Team() {
                         <img src={prishamam} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Prisha Chakravorty</h3>
-                            <p>Mentor</p>
+                            <p>Mentor<br></br>Steering, Suspension, Brakes, CAD & Finance</p>
                         </div>
                     </div>
                     <div class="team-card rakshit">
@@ -64,7 +65,7 @@ export default function Team() {
                         <img src={Sumit} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Sumit Suxena</h3>
-                            <p>Wire harrness & Electronics </p>
+                            <p> Vice Captain <br></br>Arduino & Electronics</p>
                         </div>
                     </div>
                     
@@ -72,7 +73,14 @@ export default function Team() {
                         <img src={Piyush} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Piyush Kaushal </h3>
-                            <p>Wire harrness & Electronics </p>
+                            <p>Wire Harrness & Electronics </p>
+                        </div>
+                    </div>
+                    <div class="team-card Saharsh">
+                        <img src={Saharsh} alt="Team Member" class="team-img" />
+                        <div class="team-info">
+                            <h3>Saharsh Upadhyay </h3>
+                            <p>Wire Harness & Electronics Innovations</p>
                         </div>
                     </div>
                     <div class="team-card arjun">
@@ -86,21 +94,21 @@ export default function Team() {
                         <img src={Anurag} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Anurag Tiwari </h3>
-                            <p>Wire harrness & Electronics </p>
+                            <p>Wire Harrness & Electronics </p>
                         </div>
                     </div>
                     <div class="team-card yash">
                         <img src={Yash} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Yash Malotiya </h3>
-                            <p>suspension & brakes</p>
+                            <p>Suspension & Brakes </p>
                         </div>
                     </div>
                     <div class="team-card aman">
                         <img src={Aman} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Aman kushwaha </h3>
-                            <p>suspension & brakes</p>
+                            <p>Suspension & Brakes </p>
                         </div>
                     </div>
                     <div class="team-card nidhi">
@@ -114,7 +122,7 @@ export default function Team() {
                         <img src={Vikash} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Vikash soni </h3>
-                            <p>suspension & brakes, CAD & Chassis</p>
+                            <p>Suspension & Brakes , CAD & Chassis</p>
                         </div>
                     </div>
                     <div class="team-card aayush">
@@ -128,28 +136,28 @@ export default function Team() {
                         <img src={Nikhil} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Nikhil Khorwal </h3>
-                            <p>Suspension & breaks</p>
+                            <p>Suspension & Brakes </p>
                         </div>
                     </div>
                     <div class="team-card nayan">
                         <img src={Nayan} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Nayan Rathore  </h3>
-                            <p>suspension & brakes</p>
+                            <p>Suspension & Brakes </p>
                         </div>
                     </div>
                     <div class="team-card saksham">
                         <img src={Saksham} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Saksham Shrivastava</h3>
-                            <p>Wire harrness & Electronics </p>
+                            <p>Wire Harrness & Electronics </p>
                         </div>
                     </div>
                     <div class="team-card kavyansh">
                         <img src={kavyansh} alt="Team Member" class="team-img" />
                         <div class="team-info">
-                            <h3>kavyansh saxena</h3>
-                            <p>Wire harrness & Electronics </p>
+                            <h3>Kavyansh saxena</h3>
+                            <p>Wire Harrness & Electronics </p>
                         </div>
                     </div>
                     <div class="team-card rahul">
@@ -163,7 +171,7 @@ export default function Team() {
                         <img src={Shabbir} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Shabbir Mhowwala </h3>
-                            <p>Electronics</p>
+                            <p>Arduino & Electronics</p>
                         </div>
                     </div>
                     <div class="team-card Saubhagya">

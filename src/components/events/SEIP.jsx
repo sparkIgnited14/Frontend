@@ -33,10 +33,10 @@ const SIEPEvent = () => {
       <div className="achievements">
         <h2>Our Achievements in SIEP</h2>
         <ul>
-        <li>Winner of the Most Innovative Project Award</li>
-          <li>Finalists in the Sustainable Transportation Challenge</li>
+        <li>coming soon....</li>
+          {/* <li>Finalists in the Sustainable Transportation Challenge</li>
           <li>Received Special Recognition for Community Impact</li>
-          <li>Highlighted in the SIEP Innovation Showcase</li>
+          <li>Highlighted in the SIEP Innovation Showcase</li> */}
         </ul>
       </div>
     </div>

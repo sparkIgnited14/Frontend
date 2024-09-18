@@ -13,7 +13,7 @@ const ETWDCEvent = () => {
         <iframe
           width="100%"
           height="500"
-          src="https://www.youtube.com/embed/jT_trMdfrdA"
+          src="https://www.youtube.com/embed/QcXA5U6-GDU"
           title="ETWDC Event Video"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
