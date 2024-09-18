@@ -20,7 +20,7 @@ export default function Footer() {
                                 Indore<br></br> Madhya Pradesh
                                 452017</p>
                     <p></p>
-                    <p className='email-id'>sparkignited14@gmail.com</p>
+                    <p className='email-id'><h5>Contact Us</h5>sparkignited14@gmail.com</p>
                     <h4>+91 93993 24469</h4>
                 </div>
                 <div className="col">
