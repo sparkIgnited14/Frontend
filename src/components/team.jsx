@@ -64,7 +64,7 @@ export default function Team() {
                     <div class="team-card sumit">
                         <img src={Sumit} alt="Team Member" class="team-img" />
                         <div class="team-info">
-                            <h3>Sumit Suxena</h3>
+                            <h3>Sumit Saxena</h3>
                             <p> Vice Captain <br></br>Arduino & Electronics</p>
                         </div>
                     </div>
