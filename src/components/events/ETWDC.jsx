@@ -33,8 +33,8 @@ const ETWDCEvent = () => {
       <div className="achievements">
         <h2>Our Achievements in ETWDC</h2>
         <ul>
-          <li>1st Place in the Design Innovation Category</li>
-          <li>Awarded Best Electric Performance</li>
+          <li><h5><b>ALL India Ranked 7 in ETWDC southern section.</b></h5></li>
+          <li><h6>Grabed 2nd postion in Innovation</h6></li>
           <li>Recognized for Sustainable Engineering Practices</li>
           <li>Featured in the ETWDC Event Highlights</li>
         </ul>
