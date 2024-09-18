@@ -5,7 +5,7 @@ import Footer from '../footer';
 
 import './team.css'
 import VKK from '../assets/VKK Photo.jpeg.jpg';
-import photo1 from '../assets/photo1.jpg';
+import photo1 from '../assets/photo.jpg';
 import prishamam from '../assets/prishamam.jpg';
 import Rakshit_Pandey from '../assets/Rakshit Pandey.jpg';
 import Sumit from '../assets/SumitSir1.jpg';

@@ -80,7 +80,7 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(72 51 71) 0%, rgb(1
  
 
   .img2card:hover {
-    background: url('../assets/photo1.jpg') center / cover no-repeat;
+    background: url('../assets/photo.jpg') center / cover no-repeat;
   }
   
   .img3card:hover {

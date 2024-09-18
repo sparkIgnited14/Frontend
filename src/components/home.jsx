@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 
 import VKK from '../assets/VKK Photo.jpeg.jpg';
-import photo1 from '../assets/photo1.jpg';
+import photo1 from '../assets/photo.jpg';
 import prishamam from '../assets/prishamam.jpg';
 import Rakshit from '../assets/Rakshit Pandey.jpg';
 
@@ -59,7 +59,7 @@ export default function Home() {
                                 <div className="vehicle-info">
                                 <img src="../saeindiaSS.jpeg" alt="vehicle.name" className="vehicle-image imgsize" />
                                     <h3>ETWDC 2023</h3>
-                                    <p><b>ALL India Ranked 7 in ETWDC southern section.</b><br></br>Grabed 2nd postion in special award</p>
+                                    <p><b>ALL India Ranked 7 in ETWDC SAEINDIA SOUTHERN SECTION.</b><br></br>Grabed 2nd postion in special award</p>
 
                                     <Link to='/etwdc-event' className="btn btn-primary">know more about ETWDC</Link>
                                 </div>
