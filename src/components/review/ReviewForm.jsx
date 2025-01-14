@@ -44,10 +44,19 @@ const ReviewForm = ({ onSubmit }) => {
     <div className=' review'>
     <form onSubmit={handleSubmit} className='form'>
         <div class="mb-3">
-        <label class="form-label">Name:</label>
-        <input
-          value={name}
-          onChange={(e) => setName(e.target.value)}
+          <label class="form-label">Name:</label>
+          <input
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            class="form-control"
+            required
+          />
+        </div>
+      <div class="mb-3">
+        <label class="form-label">Review:</label>
+        <textarea
+          value={comment}
+          onChange={(e) => setComment(e.target.value)}
           class="form-control"
           required
         />
@@ -66,18 +75,10 @@ const ReviewForm = ({ onSubmit }) => {
         ))}
       </div>
 
-      <div class="mb-3">
-        <label class="form-label">Comment:</label>
-        <textarea
-          value={comment}
-          onChange={(e) => setComment(e.target.value)}
-          class="form-control"
-          required
-        />
-      </div>
+      
 
       <div class="mb-3">
-        <label class="form-label">How did you hear about us?</label>
+        <label class="form-label">On the basis of </label>
         <select
           value={source}
           onChange={(e) => setSource(e.target.value)}
@@ -85,12 +86,22 @@ const ReviewForm = ({ onSubmit }) => {
           required
         >
           <option value="">Select</option>
-          <option value="Social Media">Social Media</option>
-          <option value="College">college</option>
-          <option value="Friend">Friend</option>
-          <option value="Advertisement">Advertisement</option>
+          <option value="Performance">Performance</option>
+          <option value="Comfort">Comfort</option>
         </select>
       </div>
+
+      <div class="mb-3">
+          <label class="form-label">Would you consider purchasing this vehicle for ₹60,000 if it were launched in the market?</label>
+          <select
+          class="form-select"
+        >
+          <option value="">Yes</option>
+          <option value="Performance">No </option>
+          <option value="Comfort">Might Think</option>
+        </select>
+        </div>
+
 
       <button type="submit" className='btn btn-outline-primary'>Submit Review</button>
     </form>

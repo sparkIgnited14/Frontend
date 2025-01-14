@@ -9,6 +9,7 @@ import Feedback from './components/feedback';
 import AdminQueries from './components/query/AdminQueries';
 import SubmitQuery from './components/query/queryForm';
 import './App.css'
+import ProfileSection from './components/Profile/ProfileSection';
 
 
 
@@ -50,6 +51,7 @@ function App() {
         <Route path="/etwdc-event" element={<ETWDCEvent />} />
         <Route path="/siep-event" element={<SIEPEvent />} />
         <Route path="/vehicle/:vehicleId" element={<VehicleDetail />} />
+        <Route path="/profile" element={<ProfileSection />} />
         </Routes>
       </Router>
     </>

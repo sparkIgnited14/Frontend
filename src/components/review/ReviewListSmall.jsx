@@ -40,8 +40,8 @@ const ReviewListSmall = () => {
                 <div className="card-body">
                 <p className="card-text comment">{review.comment} </p>
                 <p className="card-text rating"><strong>Rating:</strong> {review.rating} ★</p>
+                <p className="card-text source"><strong>On the basis of :</strong> {review.source} </p>
                 <p className="card-text name"><strong>Name:</strong> {review.name} </p>
-                <p className="card-text source"><strong>Source:</strong> {review.source} </p>
                 </div>
               </div>
             ))}

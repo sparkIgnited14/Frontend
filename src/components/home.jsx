@@ -23,6 +23,26 @@ export default function Home() {
                 <section class="hero">
                     <div class="hero-overlay">
                         <div class="hero-content">
+                            <div className='threesec'>
+                                <div className="profile-section timesecbody">
+                                    <div className="content-container">
+                                        <div className="info-container">
+                                            <div className="info-item">
+                                                <p><h4>700</h4>Hours of R&D</p>
+                                            </div>
+                                            <div className="divider"></div>
+                                            <div className="info-item">
+                                                <p><h4>50+</h4>Engineers Involved</p>
+                                            </div>
+                                            <div className="divider"></div>
+                                            <div className="info-item">
+                                                <p><h4>1000+</h4>Km <br></br>Tested </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <h1>Welcome to <br></br>Team Spark Ignited</h1>
                             <p>Discover innovation in motion with our radical electric two-wheeler</p>
                             <a href="#about" class="cta-btn">Explore Our Vision</a>

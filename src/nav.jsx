@@ -1,5 +1,6 @@
 import './nav.css'
 import { Link } from 'react-router-dom';
+import ProfileLink from './ProfileLink';
 
 
 
@@ -20,7 +21,7 @@ export default function Nav() {
                      </div> */}
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link" href="/">Explore</a>
+                            <a class="nav-link" href="/">Spark Ignited</a>
                         </div>
                         <div class="navbar-nav ms-auto">
                             <Link class="nav-link btn-bg mr" to="/"><i class="fa-solid fa-house"></i> Home</Link> 
@@ -31,10 +32,17 @@ export default function Nav() {
                         <div class="navbar-nav ms-auto">
                           
                             <Link class="nav-link btn-bg" to="/feedback"><b><i class="fa-solid fa-clipboard-question"></i> Query</b></Link>
-                            <Link class="nav-link btn-bg" to="/contact"><b><i class="fa-solid fa-phone"></i> Contact Us</b></Link>
-
+                            <Link class="nav-link btn-bg" to="/contact"><b><i class="fa-solid fa-phone"></i> Contact</b></Link>
+                            {/* <Link class="nav-link btn-bg" to="/profile"><b><i class="fa-solid fa-user"></i></b></Link> */}
+                            
                         </div>
+                        <div class="navbar-nav ms-2">
+                        <ProfileLink />
+                        </div>
+                        
                     </div>
+                    
+
                 </div>
             </nav>
         </div>

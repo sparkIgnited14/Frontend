@@ -21,7 +21,7 @@ export default function Footer() {
                                 452017</p>
                     <p></p>
                     <p className='email-id'><h5>Contact Us</h5>sparkignited14@gmail.com</p>
-                    <h4>+91 93993 24469</h4>
+                    <h5>+91 93993 24469</h5>
                 </div>
                 <div className="col">
                     <h3>Links <div className='underline'><span></span></div></h3>

@@ -4,6 +4,8 @@ import './vehicleDetail.css';
 import Nav from '../nav';
 import Footer from '../footer';
 
+
+
 const vehicleData = {
   'shadow-1.0': {
     name: 'Shadow 1.0',
@@ -63,10 +65,13 @@ const VehicleDetail = () => {
   return (
     <div>
         <Nav />
+
     <div className="vehicle-detail">
-      <h2>{vehicle.name}</h2>
+    <h2>{vehicle.name}</h2>
+      <div className='flex'>
       <img src={vehicle.image} alt={vehicle.name} className="vehicle-detail-image" />
       <p>{vehicle.description}</p>
+      </div>
       <h3>Specifications:</h3>
       <div className="specs-grid">
         {Object.entries(vehicle.details).map(([key, value]) => (
@@ -77,9 +82,33 @@ const VehicleDetail = () => {
         ))}
       </div>
     </div>
+    <div>
+    </div>
     <Footer />
     </div>
   );
 };
 
 export default VehicleDetail;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <section>
+// <TimeSection/>
+// </section>

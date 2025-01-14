@@ -25,6 +25,8 @@ const Vehicles = () => {
   ];
 
   return (
+    <div>
+   
     <section className="vehicles-section" id="vehicles">
       <div className="vehicles-grid">
         {vehicles.map((vehicle) => (
@@ -33,11 +35,14 @@ const Vehicles = () => {
             <div className="vehicle-info">
               <h3>{vehicle.name}</h3>
               <p>{vehicle.description}</p>
+              <br></br>  
+              <Link to={`/vehicle/${vehicle.id}`} class="btn btn-outline-primary">click here to know more</Link>
             </div>
           </Link>
         ))}
       </div>
     </section>
+    </div>
   );
 };
 

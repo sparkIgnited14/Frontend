@@ -1,6 +1,6 @@
 .vehicle-detail {
-    padding: 20px;
-    text-align: center;
+    padding: 40px;
+    /* text-align: center; */
   }
   
   .vehicle-detail img {
@@ -13,6 +13,7 @@
   
   .vehicle-detail h2 {
     margin-bottom: 10px;
+    text-align: start;
   }
   
   .specs-grid {
@@ -48,3 +49,28 @@
     color: #666;
   }
   
+  .flex {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  .flex p {
+    margin-left: 5rem;
+  }
+
+  @media (max-width: 576px) {
+    .flex {
+      display: block;
+      margin-bottom: 0px;
+    }
+    .flex p {
+      margin-left: 0px;
+    }
+    .vehicle-detail h2 {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .vehicle-detail {
+      padding: 20px;
+      /* text-align: center; */
+    }
+  }
