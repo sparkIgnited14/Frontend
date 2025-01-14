@@ -28,7 +28,7 @@ export default function Home() {
                                     <div className="content-container">
                                         <div className="info-container">
                                             <div className="info-item">
-                                                <p><h4>700</h4>Hours of R&D</p>
+                                                <p><h4>700+</h4>Hours of R&D</p>
                                             </div>
                                             <div className="divider"></div>
                                             <div className="info-item">
