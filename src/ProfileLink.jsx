@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import ReactDOM from "react-dom";
-import "./profilelink.css";
+import "./ProfileLink.css";
 
 const ProfileLink = () => {
   const [isOpen, setIsOpen] = useState(false); // Toggle the modal
