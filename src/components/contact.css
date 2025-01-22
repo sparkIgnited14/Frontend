@@ -62,5 +62,14 @@
     .query-form input, .query-form textarea {
       font-size: 0.9rem;
     }
+    .map {
+      display: none;
+    }
+    .contact-info {
+      margin:20px;
+    }
+    .contact-section {
+      padding: 10px 20px;
+    }
   }
   

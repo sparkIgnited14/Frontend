@@ -31,7 +31,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className='map'>
             <img src='../Screenshot 2024-09-14 155559.png' alt='img'></img>
           </div>
         </div>
