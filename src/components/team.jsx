@@ -174,13 +174,13 @@ export default function Team() {
                             <p>Arduino & Electronics</p>
                         </div>
                     </div>
-                    <div class="team-card Saubhagya">
+                    {/* <div class="team-card Saubhagya">
                         <img src={Saubhagya} alt="Team Member" class="team-img" />
                         <div class="team-info">
                             <h3>Saubhagya Barve</h3>
                             <p>Electronics</p>
                         </div>
-                    </div>
+                    </div> */}
                     
                     
                 </div>

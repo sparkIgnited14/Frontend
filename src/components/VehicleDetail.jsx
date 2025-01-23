@@ -25,7 +25,7 @@ const vehicleData = {
   'shadow-2.0': {
     name: 'Shadow 2.0',
     description: 'An eco-friendly scooter with a sleek design and a range of 45km.',
-    image: '../ather-delivers-250-450x-electric-scooters-in-the-same-day-3-1666601920.jpg', // Replace with actual image URL
+    image: '../shadow2.0.png', // Replace with actual image URL
     details: {
       motor: '1200w, BLDC hub motor',
       battery: '30AH Li-ion',
