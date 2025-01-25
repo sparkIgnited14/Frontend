@@ -25,7 +25,7 @@ const vehicleData = {
   'shadow-2.0': {
     name: 'Shadow 2.0',
     description: 'An eco-friendly scooter with a sleek design and a range of 45km.',
-    image: '../shadow2.0.png', // Replace with actual image URL
+    image: '../shadownew.jpg', // Replace with actual image URL
     details: {
       motor: '1200w, BLDC hub motor',
       battery: '30AH Li-ion',

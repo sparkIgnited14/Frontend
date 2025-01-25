@@ -14,7 +14,7 @@ const Vehicles = () => {
       id: 'shadow-2.0',
       name: 'Shadow 2.0',
       description: 'An eco-friendly scooter with a sleek design and a range of 45km.',
-      image: '../edit.png', // Replace with actual image URL
+      image: '../shadow2.jpg', // Replace with actual image URL
     },
     {
       id: 'electric-bike-model-z',
