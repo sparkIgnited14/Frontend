@@ -20,7 +20,7 @@ const Vehicles = () => {
       id: 'electric-bike-model-z',
       name: 'Electric Bike Model Z',
       description: 'coming soon.....',
-      image: '../ather-delivers-250-450x-electric-scooters-in-the-same-day-3-1666601920.jpg', // Replace with actual image URL
+      image: '../upcoming.png', // Replace with actual image URL
     },
   ];
 
