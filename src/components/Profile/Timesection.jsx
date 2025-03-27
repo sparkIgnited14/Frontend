@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import './TimeSection.css'; // Ensure you have a CSS file for styling
 
+import TravelSavingsCalculator from './TravelSavingsCalculator';
+
 const Timeline = () => {
   useEffect(() => {
     // Function to reveal timeline items smoothly on scroll
@@ -231,6 +233,9 @@ const Timeline = () => {
       <div id="modal" className="modal">
         <span className="close">&times;</span>
         <img className="modal-content" id="modal-img" alt="Modal" />
+      </div>
+      <div>
+      <TravelSavingsCalculator />
       </div>
     </div>
   );

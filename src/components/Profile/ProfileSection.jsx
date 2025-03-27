@@ -5,6 +5,7 @@ import Nav from '../../nav';
 import Footer from '../../footer';
 
 import Timeline from './Timesection';
+import TravelSavingsCalculator from './TravelSavingsCalculator';
 
 
 const ProfileSection = () => {
@@ -45,7 +46,12 @@ const ProfileSection = () => {
 
 
       <Timeline />
+      
+      <div>
+       
     </div>
+    </div>
+    
     <Footer />
 
     
