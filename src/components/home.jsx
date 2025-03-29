@@ -87,8 +87,8 @@ export default function Home() {
                             <div className="vehicle-card" >
                                 <div className="vehicle-info">
                                 <img src="../ISIE-logo.png" alt="vehicle.name" className="vehicle-image imgsize" />
-                                    <h3>SIEP 2024</h3>
-                                    <p>Coming Soon...     </p>
+                                    <h3>SIEP 2025</h3>
+                                    <p>27-31 March 2025 </p>
                                     <br></br>  
                                     <Link to='/siep-event' className="btn btn-primary">know more about SIEP</Link>
                                 </div>

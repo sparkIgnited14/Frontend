@@ -38,18 +38,18 @@ const vehicleData = {
     },
   },
   'electric-bike-model-z': {
-    name: 'Electric Bike Model Z',
+    name: 'Shadow legacy',
     description: 'An efficient bike perfect for city commuting, offering a smooth ride.',
     image: '../upcoming.png', // Replace with actual image URL
     details: {
-      motor: '....',
-      battery: '....',
-      charging: '....',
-      torque: '....',
-      payload: '....',
+      motor: '2000, BLDC hub motor  ',
+      battery: '72V 34AH Li-ion',
+      charging: '350w fast charge',
+      torque: '40nm @500 RPM',
+      payload: '120 kg',
       wheels: '....',
-      range: '....',
-      speed: '....',
+      range: '58 km',
+      speed: '70 kmph',
     },
   },
 };

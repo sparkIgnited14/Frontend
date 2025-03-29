@@ -18,8 +18,8 @@ const Vehicles = () => {
     },
     {
       id: 'electric-bike-model-z',
-      name: 'Electric Bike Model Z',
-      description: 'coming soon.....',
+      name: 'Shadow legacy',
+      description: '27-31 March 2025 ',
       image: '../upcoming.png', // Replace with actual image URL
     },
   ];
